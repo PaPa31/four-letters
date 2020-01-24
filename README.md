@@ -7,14 +7,14 @@ Little hint files with text describing Git and bash commands.
 Download repo as .zip (or clone if you want to contribute).
 Copypast this in shell and run:
 
-	echo "alias giii='cat ~/empty-repository/giii'">>~/.bashrc 
-	echo "alias gitt='cat ~/empty-repository/gitt'">>~/.bashrc
-	echo "alias comm='cat ~/empty-repository/comm'">>~/.bashrc
-	echo "alias conf='cat ~/empty-repository/conf'">>~/.bashrc
-	echo "alias alia='cat ~/empty-repository/alia'">>~/.bashrc
-	echo "alias inst='cat ~/empty-repository/inst'">>~/.bashrc
-	echo "alias clea='cat ~/empty-repository/clea'">>~/.bashrc
-	echo "alias repo='cat ~/empty-repository/repo'">>~/.bashrc
+	echo "alias giii='cat ~/four-letters/giii'">>~/.bashrc 
+	echo "alias gitt='cat ~/four-letters/gitt'">>~/.bashrc
+	echo "alias comm='cat ~/four-letters/comm'">>~/.bashrc
+	echo "alias conf='cat ~/four-letters/conf'">>~/.bashrc
+	echo "alias alia='cat ~/four-letters/alia'">>~/.bashrc
+	echo "alias inst='cat ~/four-letters/inst'">>~/.bashrc
+	echo "alias clea='cat ~/four-letters/clea'">>~/.bashrc
+	echo "alias repo='cat ~/four-letters/repo'">>~/.bashrc
 
 Useful-files:
 
