@@ -5,7 +5,7 @@ Useful GIT commands
 Little hint files with text describing Git and bash commands.
 
 Download repo as .zip (or clone if you want to contribute).
-Copypast this in shell and run:
+Copypast this in your shell and run:
 
 	echo "alias giii='cat ~/four-letters/giii'">>~/.bashrc 
 	echo "alias gitt='cat ~/four-letters/gitt'">>~/.bashrc
@@ -16,7 +16,7 @@ Copypast this in shell and run:
 	echo "alias clea='cat ~/four-letters/clea'">>~/.bashrc
 	echo "alias repo='cat ~/four-letters/repo'">>~/.bashrc
 
-Now, if you type in your shell, for exemple:
+Now, if you type in your shell one of the shortcuts, for example:
 
 	giii
 
@@ -46,8 +46,11 @@ You must see:
 		status     Show the working tree status 
 		tag        Create, list, delete, or verify a tag object signed with GPG 
 
+It's all!
 
-# Useful files:
+Other shortcuts contain some other useful commands in Git and bash.
+
+# Shortcuts list:
 
 	giii		The most commonly used git commands
 	gitt		Useful git commands
