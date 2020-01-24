@@ -47,7 +47,7 @@ You must see:
 		tag        Create, list, delete, or verify a tag object signed with GPG 
 
 
-Useful-files:
+# Useful files:
 
 	giii		The most commonly used git commands
 	gitt		Useful git commands
