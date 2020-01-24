@@ -1,0 +1,5 @@
+Cleaning system commands:
+        sudo apt autoclean      Remove unused packages from cache
+        sudo apt clean          Clean cache
+        sudo apt autoremove     Remove unused dependencies
+

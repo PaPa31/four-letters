@@ -1,0 +1,5 @@
+Useful bash commands:
+	ps aux | grep vi	Find all processes with vi in name
+	ls -lsa some_dir	Detailed file list in some_dir
+	find .			List files in current dir and subdirs
+

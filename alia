@@ -1,0 +1,6 @@
+Useful aliases:
+
+	git show-graph	Shows branch graph with short log 
+
+	Setting up:
+	git config --global alias.show-graph 'log --graph --abbrev-commit --pretty=oneline'
