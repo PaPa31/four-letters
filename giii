@@ -1,4 +1,4 @@
-The most commonly used git commands are:
+The most commonly used git commands:
 
    add        Add file contents to the index 
    bisect     Find the change that introduced a bug by binary search 
