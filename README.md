@@ -16,7 +16,7 @@ Copypast this in shell and run:
 	echo "alias clea='cat ~/four-letters/clea'">>~/.bashrc
 	echo "alias repo='cat ~/four-letters/repo'">>~/.bashrc
 
-Now, if you type in your shell, for exeple:
+Now, if you type in your shell, for exemple:
 
 	giii
 
