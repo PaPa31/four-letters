@@ -10,3 +10,6 @@ git ls-files -s  	Print list of index(--staged) files with hash
 git write-tree 	 	Capture the index state and save it to a tree 
 git hash-object file	Compute and print SHA1
 git ls-remote		Shows references within a remote 
+git log -1 -p 4fe8	Print patch or changes introduced by commit
+git log -1 --stat	Enumerates thre files changed in a commit and tallie how many lines were modified in each file 
+$ git log --pretty=short --abbrev-commit master~12..master~10 	Show short form commits between range 
