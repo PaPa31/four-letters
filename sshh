@@ -1,0 +1,23 @@
+Generating new ssh keys:
+
+	$ ssh-agent -t rsa -b 4096 "your_mail@example.com"
+		
+		[When prompt "Enter a file..." press Enter]
+		[When prompt "Enter passphrase...", enter Password]
+
+Starting ssh-agent:
+
+	$ eval $(ssh-agent -s)
+
+		[must prompt "Agent pid 5957"]
+
+Adding SSH-key to ssh-agent:
+
+	$ ssh-add ~/.ssh/id_rsa
+
+Showing ssh pub-key:
+
+	cat ~/.ssh/id_rsa.pub
+
+Copypasting the output to the GitHub personal settings (New SSH key)
+
