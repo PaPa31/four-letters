@@ -17,6 +17,7 @@ Copypast this in your shell and run:
 	echo "alias repo='cat ~/four-letters/repo'">>~/.bashrc
 	echo "alias sshh='cat ~/four-letters/sshh'">>~/.bashrc	
 
+(rerun your shell)
 Now, if you type in your shell one of the shortcuts, for example:
 
 	giii
