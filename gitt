@@ -1,5 +1,6 @@
 Useful Git commands:
 
+git status -s		Short info about every active file
 git show		More detail about last commit
 git show 9da58		More detail about commit with a number
 git show-branch --more=10  One-line summaries for current branch
