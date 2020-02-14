@@ -15,7 +15,8 @@ Copypast this in your shell and run:
 	echo "alias inst='cat ~/four-letters/inst'">>~/.bashrc
 	echo "alias clea='cat ~/four-letters/clea'">>~/.bashrc
 	echo "alias repo='cat ~/four-letters/repo'">>~/.bashrc
-	echo "alias sshh='cat ~/four-letters/sshh'">>~/.bashrc	
+	echo "alias sshh='cat ~/four-letters/sshh'">>~/.bashrc
+	echo "alias stag='cat ~/four-letters/stag'">>~/.bashrc		
 
 (rerun your shell)
 Now, if you type in your shell one of the shortcuts, for example:
@@ -63,3 +64,4 @@ Other shortcuts contain some other useful commands in Git and bash.
 	clea		Cleaning system command
 	repo		Create new repo in GitHub
 	sshh		Set up ssh-keys fo remote repo (GitHub)
+	stag		List abbrev in 'git status -s' command
