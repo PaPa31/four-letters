@@ -3,3 +3,5 @@ Useful bash commands:
 	ls -lsa some_dir	Detailed file list in some_dir
 	find .			List files in current dir and subdirs
 	find . -path ./.git -prune -o -print	List all files exept .git dir
+	du -a / | sort -n -r | head -n 10	Find largest files or folders on a file system
+	du ~/go | sort -n -r | less	Sort by size (-n numeric) (-r reverse)
