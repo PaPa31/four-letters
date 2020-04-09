@@ -3,7 +3,7 @@ Useful aliases:
 	git g	 	Shows branch graph with short log 
 
 	Setting up:
-	git config --global alias.g 'log --graph --abbrev-commit --pretty=oneline'
+	git config --global alias.g 'log --graph --abbrev-commit --oneline'
 
 But, the simpliest way is:
 	1. Open with editor the ~/.gitconfig file
@@ -19,7 +19,7 @@ But, the simpliest way is:
     ca=commit --amend 
     ac=!git add . && git commit 
     acm=!git add . && git commit -m 
-    l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset' 
+    l=log --graph --all --oneline 
     ll=log --stat --abbrev-commit 
     lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative 
     llg=log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit 
