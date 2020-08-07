@@ -5,3 +5,6 @@ Useful bash commands:
 	find . -path ./.git -prune -o -print	List all files exept .git dir
 	du -a / | sort -n -r | head -n 10	Find largest files or folders on a file system
 	du ~/go | sort -n -r | less	Sort by size (-n numeric) (-r reverse)
+	echo 'A' > file		Put A in file
+	echo 'B' >> file	Add B in file (with new line)
+	cat file		Show content of file
