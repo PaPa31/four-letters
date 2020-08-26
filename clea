@@ -3,4 +3,5 @@ Cleaning system commands:
         sudo apt clean          Clean cache
         sudo apt autoremove     Remove unused dependencies
 	sudo ./CLEAR_SNAP.sh	Removes old revisions of snaps
+	sudo ./kernel-remove.sh	Removes old kernels
 
