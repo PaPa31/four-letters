@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -o xtrace
+file="$1"
+find $(dirname "$file") -maxdepth 1 -type f -name "${file}" | while read LINE; do sed -z -r -e 's/\s+\n/\n/g' -e 's/ {4,}/\t/g' "$LINE" > tmp999 && mv tmp999 $LINE; done

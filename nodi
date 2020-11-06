@@ -1,0 +1,13 @@
+0. Current node versions: $ nvm ls
+1. Install curl: $ sudo apt-get install curl
+2. Visit https://github.com/nvm-sh/nvm and copy `curl -o- ...`
+3. Rerun shell: $ exec bash
+4. Test: $ command -v nvm (must output: nvm)
+5. Run: $ nvm install 10 (gatsby tip)
+6. Run: $ nvm use 10
+7. Test: $ node --version
+8. Test: $ npm --version
+9. Test: $ nvm ls
+10.Run: $ nvm alias default 10
+11.(optional) Run: $ nvm install 12
+12.Verify: $ nvm ls-remote

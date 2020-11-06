@@ -1,7 +1,11 @@
-Cleaning system commands:
-        sudo apt autoclean      Remove unused packages from cache
-        sudo apt clean          Clean cache
-        sudo apt autoremove     Remove unused dependencies
+Cleaning of system commands:
+	sudo apt autoclean      Remove unused packages from cache
+	sudo apt clean          Clean cache
+	sudo apt autoremove     Remove unused dependencies
+	sudo apt-get remove --auto-remove
+	sudo apt-get remove --auto-remove <packagename>
 	sudo ./CLEAR_SNAP.sh	Removes old revisions of snaps
+	sudo ./kernel-list.sh	List old kernels
 	sudo ./kernel-remove.sh	Removes old kernels
+    dpkg -l linux-* | awk '/^ii/{ print $2}' | grep -v -e `uname -r | cut -f1,2 -d"-"` | grep -e [0-9] | xargs sudo apt-get -y purge
 

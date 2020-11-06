@@ -1,0 +1,10 @@
+Git configuration commands(copy/past):
+
+git config --global color.ui true
+git config --global diff.ui auto
+git config --global core.editor vi
+git config --global core.autocrlf input
+git config --global core.excludesfile ~/.gitignore
+git config --global credential.helper cache
+git config --global user.email "visidoor@yandex.ru"
+git config --global user.name "papa"

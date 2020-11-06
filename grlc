@@ -1,0 +1,13 @@
+# git - remove last commit
+1. First, remove commit locally:
+
+	$ git reset HEAD^
+
+2. Second, force-push the new HEAD commit:
+
+	$ git push origin +HEAD
+
+If you want to still have it in your local repository and only remove it from
+the remote:
+
+    $ git push origin +HEAD^:master  

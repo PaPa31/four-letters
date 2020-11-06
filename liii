@@ -1,13 +1,29 @@
+[git]
+1.	gico	git configuration
+2.	gssh	Set up ssh-keys fo remote repo (GitHub)
+	grlc	git remove last commit
+	grfc	git remove first commit
+	giii	The most commonly used git commands
+	gitt	Useful git commands
+	repo	Create new repo in GitHub
+	stag	List abbrev in 'git status -s' command
 
-giii		The most commonly used git commands
-gitt		Useful git commands
-comm		Useful bash commands
-conf		Configuration commands
-alia		Aliases commands
-inst		Installed apps (just to remember what you install)
-clea		Cleaning system command
-repo		Create new repo in GitHub
-sshh		Set up ssh-keys fo remote repo (GitHub)
-stag		List abbrev in 'git status -s' command
-liii		List all aliases
+[bash]
+4.	baco	bash configuration
+	comm	Useful bash commands
+3.	alia	Aliases commands
+	inst	Installed apps (just to remember what you install)
+	clea	Cleaning system command
+5.	bafu	Some functions to ~/.bashrc
 
+[vi]
+	viru	vi russification (you may enter commands in russian)
+
+[shell]
+	shpr	remove endian spaces(use:shpr file)
+
+[node]
+	nodi	node install (nvm & node)
+
+[list]
+	liii	List all tips
