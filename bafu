@@ -1,5 +1,7 @@
-Some functions to ~/.bashrc:
-
-	echo 'mktouch() { mkdir -p $(dirname "$1") && touch "$1"; }'>>~/.bashrc
-    usage: $ mktouch /tu/ru/mu/bu
-    description: makes a new file (bu) in a new directories (tu/ru/mu)
+Some to ~/.bashrc:
+[functions]
+echo 'mktouch() { mkdir -p $(dirname "$1") && touch "$1"; }'>>~/.bashrc
+	usage: $ mktouch /tu/ru/mu/bu
+	description: makes a new file (bu) in a new directories (tu/ru/mu)
+[alias]
+echo "alias oren='curl http://wttr.in/orenburg'">>~/.bashrc

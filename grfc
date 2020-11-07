@@ -1,17 +1,9 @@
 reset (softly, you will not lose your work) all your commits of your current branch:
-
-    $ git update-ref -d HEAD
-
+	$ git update-ref -d HEAD
 For me, the most secure way is to use the update-ref command:
-
-    $ git update-ref -d HEAD
-
+	$ git update-ref -d HEAD
 It will delete the named reference HEAD, so it will reset (softly, you will not lose your work) all your commits of your current branch.
-
 If what you want is to merge the first commit with the second one, you can use the rebase command:
-
-    $ git rebase -i --root
-
+	$ git rebase -i --root
 A last way could be to create an orphan branch, a branch with the same content but without any commit history, and commit your new content on it:
-
-    $ git checkout --orphan <new-branch-name>
+	$ git checkout --orphan <new-branch-name>

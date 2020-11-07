@@ -1,0 +1,5 @@
+For your convenience, to avoid switching between keyboards, when you need to
+enter Normal mode command, you can also set 'langmap' option:
+>
+	:set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,
+	фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz

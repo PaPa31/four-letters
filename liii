@@ -1,5 +1,10 @@
-[git]
-1.	gico	git configuration
+# Shortcuts list
+The numbered lines must be executed for them to take effect in your
+configuration.
+## list
+	liii	List all shortcuts
+## git
+1.	gicf	git configuration
 2.	gssh	Set up ssh-keys fo remote repo (GitHub)
 	grlc	git remove last commit
 	grfc	git remove first commit
@@ -7,23 +12,16 @@
 	gitt	Useful git commands
 	repo	Create new repo in GitHub
 	stag	List abbrev in 'git status -s' command
-
-[bash]
+## bash
 4.	baco	bash configuration
 	comm	Useful bash commands
 3.	alia	Aliases commands
 	inst	Installed apps (just to remember what you install)
 	clea	Cleaning system command
 5.	bafu	Some functions to ~/.bashrc
-
-[vi]
+## vi
 	viru	vi russification (you may enter commands in russian)
-
-[shell]
-	shpr	remove endian spaces(use:shpr file)
-
-[node]
+## shell
+	pret	Prettyfier (use:$ pret file, $ pret "*")
+## node
 	nodi	node install (nvm & node)
-
-[list]
-	liii	List all tips

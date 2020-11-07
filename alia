@@ -1,0 +1,26 @@
+Useful aliases:
+	git g	 	Shows branch graph with short log
+	Setting up:
+	git config --global alias.g 'log --graph --abbrev-commit --oneline'
+But, the simpliest way is:
+1. Open with editor the ~/.gitconfig file
+2. Add into [alias] section following lines:
+	g=log --graph --abbrev-commit --pretty=oneline
+	s=status
+	a=!git add . && git status
+	au=!git add -u . && git status
+	aa=!git add . && git add -u . && git status
+	c=commit
+	cm=commit -m
+	ca=commit --amend
+	ac=!git add . && git commit
+	acm=!git add . && git commit -m
+	l=log --graph --all --oneline
+	ll=log --stat --abbrev-commit
+	lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	llg=log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
+	d=diff
+	master=checkout master
+	spull=svn rebase
+	spush=svn dcommit
+	alias = !git config --get-regexp ^alias\\. | sed -e s/^alias.// -e s/\\ /\\ $(printf \"\\043\")--\\>\\ / | column -t -s $(printf \"\\043\") | sort -k 1
