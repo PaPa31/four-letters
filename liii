@@ -13,8 +13,8 @@ configuration.
 	repo	Create new repo in GitHub
 	stag	List abbrev in 'git status -s' command
 ## bash
-4.	baco	bash configuration
-	comm	Useful bash commands
+4.	bacf	bash configuration
+	bauc	bash useful commands
 3.	alia	Aliases commands
 	inst	Installed apps (just to remember what you install)
 	clea	Cleaning system command
