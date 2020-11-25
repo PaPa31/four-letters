@@ -1,7 +1,7 @@
 Generating new ssh keys:
 	$ ssh-keygen -t rsa -b 4096 -C "your_mail@example.com"
 		[When prompt "Enter a file..." press Enter]
-		[When prompt "Enter passphrase...", enter Password]
+		[When prompt "Enter passphrase...", press Enter]
 Starting ssh-agent:
 	$ eval $(ssh-agent -s)
 		[must prompt "Agent pid 5957"]
