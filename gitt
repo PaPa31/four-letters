@@ -21,3 +21,4 @@ git log --find-object=115f	List of commints with this blob in their tree
 git reset HEAD --hard	REAL Delete data
 git clean -f		Remove untracked files
 git stash show -p | git apply && git stash drop      Force git stash pop
+git push origin HEAD:master --force     When detached but want push to remote
