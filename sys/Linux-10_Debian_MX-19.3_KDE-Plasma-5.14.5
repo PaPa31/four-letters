@@ -1,0 +1,97 @@
+
+[code]
+System:
+  Host: <filter> Kernel: 5.6.0-2-amd64 x86_64 bits: 64 compiler: gcc 
+  v: 8.3.0 
+  parameters: BOOT_IMAGE=/boot/vmlinuz-5.6.0-2-amd64 
+  root=UUID=<filter> ro quiet hush 
+  Desktop: KDE Plasma 5.14.5 wm: kwin_x11 dm: SDDM 
+  Distro: MX-19.3_KDE_x64 patito feo August 16  2020 
+  base: Debian GNU/Linux 10 (buster) 
+Machine:
+  Type: Desktop Mobo: N/A model: Intel X79 serial: <filter> 
+  UEFI: American Megatrends v: 4.6.5 date: 05/30/2019 
+CPU:
+  Topology: 8-Core model: Intel Xeon E5-2689 0 bits: 64 
+  type: MT MCP arch: Sandy Bridge family: 6 model-id: 2D (45) 
+  stepping: 7 microcode: 71A L2 cache: 20.0 MiB 
+  flags: avx lm nx pae sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx 
+  bogomips: 83012 
+  Speed: 1243 MHz min/max: 1200/3600 MHz Core speeds (MHz): 1: 1243 
+  2: 1256 3: 1313 4: 1359 5: 1233 6: 1323 7: 1200 8: 1273 9: 1247 
+  10: 1227 11: 1319 12: 1199 13: 1292 14: 1297 15: 1391 16: 1252 
+  Vulnerabilities: Type: itlb_multihit 
+  status: KVM: Split huge pages 
+  Type: l1tf mitigation: PTE Inversion; VMX: conditional cache 
+  flushes, SMT vulnerable 
+  Type: mds mitigation: Clear CPU buffers; SMT vulnerable 
+  Type: meltdown mitigation: PTI 
+  Type: spec_store_bypass mitigation: Speculative Store Bypass 
+  disabled via prctl and seccomp 
+  Type: spectre_v1 mitigation: usercopy/swapgs barriers and __user 
+  pointer sanitization 
+  Type: spectre_v2 mitigation: Full generic retpoline, IBPB: 
+  conditional, IBRS_FW, STIBP: conditional, RSB filling 
+  Type: srbds status: Not affected 
+  Type: tsx_async_abort status: Not affected 
+Graphics:
+  Device-1: NVIDIA GP104 [GeForce GTX 1060 3GB] driver: nouveau 
+  v: kernel bus ID: 03:00.0 chip ID: 10de:1b84 
+  Display: x11 server: X.Org 1.20.9 driver: modesetting 
+  unloaded: fbdev,vesa compositor: kwin_x11 tty: N/A 
+  OpenGL: renderer: NV134 v: 4.3 Mesa 20.1.8 direct render: Yes 
+Audio:
+  Device-1: Intel 7 Series/C216 Family High Definition Audio 
+  driver: snd_hda_intel v: kernel bus ID: 00:1b.0 
+  chip ID: 8086:1e20 
+  Device-2: NVIDIA GP104 High Definition Audio 
+  driver: snd_hda_intel v: kernel bus ID: 03:00.1 
+  chip ID: 10de:10f0 
+  Sound Server: ALSA v: k5.6.0-2-amd64 
+Network:
+  Device-1: Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet 
+  driver: r8169 v: kernel port: d000 bus ID: 07:00.0 
+  chip ID: 10ec:8168 
+  IF: eth0 state: up speed: 100 Mbps duplex: full mac: <filter> 
+Drives:
+  Local Storage: total: 476.95 GiB used: 223.67 GiB (46.9%) 
+  ID-1: /dev/sda vendor: Samsung model: P3-256 size: 238.47 GiB 
+  block size: physical: 512 B logical: 512 B speed: 6.0 Gb/s 
+  serial: <filter> rev: 429 scheme: MBR 
+  ID-2: /dev/sdb vendor: Samsung model: P3-256 size: 238.47 GiB 
+  block size: physical: 512 B logical: 512 B speed: 3.0 Gb/s 
+  serial: <filter> rev: 2c02 scheme: GPT 
+Partition:
+  ID-1: / raw size: 20.00 GiB size: 18.69 GiB (93.43%) 
+  used: 13.39 GiB (71.7%) fs: ext4 dev: /dev/sdb2 
+  ID-2: /home raw size: 218.22 GiB size: 213.80 GiB (97.97%) 
+  used: 46.92 GiB (21.9%) fs: ext4 dev: /dev/sdb3 
+Sensors:
+  System Temperatures: cpu: 35.0 C mobo: N/A gpu: nouveau 
+  temp: 40 C 
+  Fan Speeds (RPM): N/A gpu: nouveau fan: 0 
+Repos:
+  No active apt repos in: /etc/apt/sources.list 
+  Active apt repos in: /etc/apt/sources.list.d/debian-stable-updates.list 
+  1: deb http://deb.debian.org/debian buster-updates main contrib non-free
+  Active apt repos in: /etc/apt/sources.list.d/debian.list 
+  1: deb http://deb.debian.org/debian buster main contrib non-free
+  2: deb http://deb.debian.org/debian-security buster/updates main contrib non-free
+  Active apt repos in: /etc/apt/sources.list.d/mono-official-stable.list 
+  1: deb https://download.mono-project.com/repo/debian stable-buster main
+  Active apt repos in: /etc/apt/sources.list.d/mx.list 
+  1: deb http://mirrors.rit.edu/mxlinux/mx-packages/mx/repo/ buster main non-free
+  2: deb http://mirrors.rit.edu/mxlinux/mx-packages/mx/repo/ buster ahs
+  Active apt repos in: /etc/apt/sources.list.d/papirus-ubuntu-papirus-groovy.list 
+  1: deb http://ppa.launchpad.net/papirus/papirus/ubuntu groovy main
+  No active apt repos in: /etc/apt/sources.list.d/various.list 
+  Active apt repos in: /etc/apt/sources.list.d/vscode.list 
+  1: deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main
+  Active apt repos in: /etc/apt/sources.list.d/yannubuntu-ubuntu-boot-repair-hirsute.list 
+  1: deb http://ppa.launchpad.net/yannubuntu/boot-repair/ubuntu hirsute main
+Info:
+  Processes: 325 Uptime: N/A Memory: 15.56 GiB 
+  used: 1.22 GiB (7.8%) Init: SysVinit v: 2.93 runlevel: 5 
+  default: 5 Compilers: gcc: 8.3.0 alt: 8 Shell: quick-system-in 
+  running in: quick-system-in inxi: 3.0.36 
+[/code]
