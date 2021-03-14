@@ -20,5 +20,11 @@ git log --pretty=short --abbrev-commit master~12..master~10 	Show short form com
 git log --find-object=115f	List of commints with this blob in their tree
 git reset HEAD --hard	REAL Delete data
 git clean -f		Remove untracked files
+
 git stash show -p | git apply && git stash drop      Force git stash pop
 git push origin HEAD:master --force     When detached but want push to remote
+git rebase -i HEAD~2	Opens vi, and you can reorder lines, and save
+git reflog		See commands log (and you can do the command below)
+git reset --hard HEAD@{2}	Undo two last git commands
+
+git log --all --decorate -- oneline --graph	Show commit tree (A DOG shortly)
