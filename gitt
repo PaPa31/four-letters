@@ -28,3 +28,9 @@ git reflog		See commands log (and you can do the command below)
 git reset --hard HEAD@{2}	Undo two last git commands
 
 git log --all --decorate -- oneline --graph	Show commit tree (A DOG shortly)
+
+git push -d <remote> <branch>   Delete remote branch
+    git fetch -all --prune  Dont forget to do this on other machin after
+    deleting
+    
+git push --set-upstream <remote> <branch>   Set upstream branch (short -u)   
