@@ -36,3 +36,8 @@ git push -d <remote> <branch>   Delete remote branch
 git push --set-upstream <remote> <branch>   Set upstream branch (short -u)   
 
 git clone [url] -b [branch-name] --single-branch    Clone only one branch
+
+git clone [url] [folder]    Clone to specific folder
+
+    Example(the above two command together): git clone git@github.com:PaPa31/react-complete-guide.git 3-assignmentP -b assignmentP --single-branch
+
