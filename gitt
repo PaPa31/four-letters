@@ -34,3 +34,5 @@ git push -d <remote> <branch>   Delete remote branch
     deleting
     
 git push --set-upstream <remote> <branch>   Set upstream branch (short -u)   
+
+git clone [url] -b [branch-name] --single-branch    Clone only one branch
