@@ -41,3 +41,4 @@ git clone [url] [folder]    Clone to specific folder
 
     Example(the above two command together): git clone git@github.com:PaPa31/react-complete-guide.git 3-assignmentP -b assignmentP --single-branch
 
+git branch -dr origin/redesign	Deleting a local remote-tracking branch
