@@ -1,12 +1,22 @@
-Generating new ssh keys:
-	$ ssh-keygen -t rsa -b 4096 -C "your_mail@example.com"
+Generate a new ssh keys:
+	$ ssh-keygen -t ed25519 -C "your_email@example.com"
+
+		Note: If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
+			$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
 		[When prompt "Enter a file..." press Enter]
 		[When prompt "Enter passphrase...", press Enter]
-Starting ssh-agent:
-	$ eval $(ssh-agent -s)
+Start the ssh-agent:
+	$ eval "$(ssh-agent -s)"
 		[must prompt "Agent pid 5957"]
-Adding SSH-key to ssh-agent:
+		
+		Depending on your environment, you may need to use a different command. For example, you may need to use root access by running: "sudo -s -H" before starting the ssh-agent, or you may need to use: "exec ssh-agent bash" or "exec ssh-agent zsh" to run the ssh-agent.
+
+Add your SSH-key private key to the ssh-agent:
+	$ ssh-add ~/.ssh/id_ed25519
+or (if legacy system):
 	$ ssh-add ~/.ssh/id_rsa
+		[must prompt "Identity added: /home/papa31/.ssh/id_rsa (visidoor@yandex.ru)"]
 Showing ssh pub-key:
 	cat ~/.ssh/id_rsa.pub
-Copypasting the output to the GitHub personal settings (New SSH key)
+Copypasting the output to the GitHub personal settings (Settings > SSH and GPG keys > New SSH key)

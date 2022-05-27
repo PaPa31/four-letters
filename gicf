@@ -1,7 +1,7 @@
 Git configuration commands(copy/past):
 git config --global color.ui true
 git config --global diff.ui auto
-git config --global core.editor vi
+git config --global core.editor vim
 git config --global core.autocrlf input
 git config --global core.excludesfile ~/.gitignore
 git config --global credential.helper cache
