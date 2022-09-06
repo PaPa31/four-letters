@@ -18,5 +18,7 @@ or (if legacy system):
 	$ ssh-add ~/.ssh/id_rsa
 		[must prompt "Identity added: /home/papa31/.ssh/id_rsa (visidoor@yandex.ru)"]
 Showing ssh pub-key:
-	cat ~/.ssh/id_rsa.pub
+	$ cat ~/.ssh/id_ed25519.pub
+or (if legacy system):
+	$ cat ~/.ssh/id_rsa.pub
 Copypasting the output to the GitHub personal settings (Settings > SSH and GPG keys > New SSH key)
