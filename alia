@@ -6,14 +6,15 @@ But, the simpliest way is:
 1. Open with editor the ~/.gitconfig file
 2. Add into [alias] section following lines:
 	g=log --graph --abbrev-commit --pretty=oneline
-	s=status
-	a=!git add . && git status
-	au=!git add -u . && git status
+	s=status -s
+	a=!git add . && git status -s
+	au=!git add -u . && git status -s
 	aa=!git add . && git add -u . && git status
 	c=commit
 	cm=commit -m
 	ca=commit --amend
 	ac=!git add . && git commit
+	aca=!git add . && git commit --amend
 	acm=!git add . && git commit -m
 	l=log --graph --all --oneline
 	ll=log --stat --abbrev-commit
